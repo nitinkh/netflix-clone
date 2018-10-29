@@ -1,0 +1,21 @@
+.genre-container {
+    float: left;
+    margin: 10px;
+}
+
+.genre-container button {
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #ed5e68;
+    color: #ffffff;
+    background-color: #ed5e68;
+}
+
+.genre-container button:active,
+.genre-container button:hover,
+.genre-container button:focus {
+    background-color: #8388a4;
+    border: 1px solid #8388a4;
+}

@@ -1,0 +1,23 @@
+.app-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    height: 52px;
+    padding: 0 25px;
+}
+
+.app-header span {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.app-container {
+    padding: 20px;
+}
